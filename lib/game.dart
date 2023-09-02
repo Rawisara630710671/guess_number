@@ -12,7 +12,7 @@ class Game {
   // constructor
   Game({required int maxRandom}) :
         answer = Random().nextInt(maxRandom) + 1 {
-    print('Answer is $answer');
+    print('Answer is $answer .');
   }
 
   GuessResult doGuess(int guess) {
